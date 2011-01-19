@@ -10,6 +10,7 @@ api = 2
 
 ; Field Types
 projects[cck][subdir] = "contrib"
+projects[cck][version] = "2.x-dev"
 projects[date][subdir] = "contrib"
 projects[email][subdir] = "contrib"
 projects[emfield][subdir] = "contrib"
