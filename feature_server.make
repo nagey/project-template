@@ -1,4 +1,5 @@
 core = 6.x
+projects[] = drupal
 api = 2
  
 projects[] = cck
