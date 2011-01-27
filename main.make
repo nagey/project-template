@@ -131,4 +131,4 @@ libraries[fckeditor][directory_name] = "fckeditor"
 
 projects[main][type] = "profile"
 projects[main][download][type] = "git"
-projects[main][download][url] = "git@github.com:nagey/project-template/main"
+projects[main][download][url] = "git@github.com:nagey/project-template.git"
