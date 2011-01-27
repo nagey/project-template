@@ -1,4 +1,5 @@
 core = 6.x
+api version = 2
  
 projects[] = cck
 projects[] = context
