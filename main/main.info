@@ -1,0 +1,95 @@
+; $Id: standard.info,v 1.2 2010/10/25 15:48:41 webchick Exp $
+name = Main Nagey Group Install Profile
+description = Install profile for Mid-Atlantic Control Systems
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = toolbar
+dependencies[] = overlay
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+dependencies[] = cck
+dependencies[] = date
+dependencies[] = media
+dependencies[] = link
+dependencies[] = email
+dependencies[] = name
+
+dependencies[] = ctools
+dependencies[] = strongarm
+dependencies[] = context
+dependencies[] = features
+dependencies[] = token
+dependencies[] = feeds
+dependencies[] = calendar
+dependencies[] = webform
+dependencies[] = print
+dependencies[] = addtoany
+
+dependencies[] = wysiwyg
+dependencies[] = imce
+dependencies[] = imce_wysiwyg
+
+dependencies[] = jquery_ui
+dependencies[] = libraries
+dependencies[] = modalframe
+
+dependencies[] = custom_breadcrumbs
+dependencies[] = custom_search
+dependencies[] = menu_block
+
+dependencies[] = googleanalytics
+dependencies[] = page_title
+dependencies[] = xmlsitemap
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = urllist
+dependencies[] = site_map
+dependencies[] = menu_attributes
+dependencies[] = site_verify
+dependencies[] = mollom
+dependencies[] = robotstxt
+dependencies[] = service_links
+dependencies[] = transliteration
+dependencies[] = fb
+
+dependencies[] = colorbox
+dependencies[] = extlink
+dependencies[] = rotating_banner
+
+dependencies[] = devel
+dependencies[] = devel_themer
+dependencies[] = backup_migrate
+dependencies[] = sweaver
+dependencies[] = skinr
+dependencies[] = drupalforfirebug
+
+dependencies[] = admin
+dependencies[] = advanced_help
+dependencies[] = admin_menu
+dependencies[] = contemplate
+
+
+
+
+
+files[] = mcs.profile
+
+

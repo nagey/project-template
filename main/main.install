@@ -1,0 +1,92 @@
+<?php
+// $Id: standard.install,v 1.30 2011/01/04 18:24:24 webchick Exp $
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ */
+function main_install() {
+	include_once DRUPAL_ROOT . '/profiles/standard/standard.install';
+	standard_install();
+	$modules = array(
+		"block",
+		"color",
+		"comment",
+		"contextual",
+		"dashboard",
+		"help",
+		"image",
+		"list",
+		"menu",
+		"number",
+		"options",
+		"path",
+		"taxonomy",
+		"dblog",
+		"search",
+		"shortcut",
+		"toolbar",
+		"overlay",
+		"field_ui",
+		"file",
+		"rdf",
+		"cck",
+		"date",
+		"media",
+		"link",
+		"email",
+		"name",
+		"ctools",
+		"strongarm",
+		"context",
+		"features",
+		"token",
+		"feeds",
+		"calendar",
+		"webform",
+		"print",
+		"addtoany",
+		"wysiwyg",
+		"imce",
+		"imce_wysiwyg",
+		"jquery_ui",
+		"libraries",
+		"modalframe",
+		"custom_breadcrumbs",
+		"custom_search",
+		"menu_block",
+		"googleanalytics",
+		"page_title",
+		"xmlsitemap",
+		"pathauto",
+		"redirect",
+		"urllist",
+		"site_map",
+		"menu_attributes",
+		"site_verify",
+		"mollom",
+		"robotstxt",
+		"service_links",
+		"transliteration",
+		"fb",
+		"colorbox",
+		"extlink",
+		"rotating_banner",
+		"devel",
+		"devel_themer",
+		"backup_migrate",
+		"sweaver",
+		"skinr",
+		"drupalforfirebug",
+		"admin",
+		"advanced_help",
+		"admin_menu",
+		"admin_menu_toolbar",
+		"contemplate");
+	for ($modules as $module) {
+		module_enable(array($module),true);
+		watchdog('profile', "installed $module");
+	}
+	var_dump(); die();
+}
